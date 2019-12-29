@@ -50,4 +50,6 @@ y: Math.floor( Math.random() * pN.height - pN.height
 
 );
 }
+  // code }
+  
 
