@@ -9,4 +9,8 @@ bX+bird.width <= pX + pipe.width
 
 &&
 
-( bY <= pY + pipe.height || bY +bird.heiht>
+( bY <= pY + pipe.height || bY +bird.height >= pY+const )
+
+||
+  
+  bY + bird.height cvs.height - fg.height
